@@ -16,7 +16,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-#  1.0 Critic the graph from both its clarity and aesthetics. At least three from each evaluation criterion.
+#  1.0 Critic the Graph from both its clarity and aesthetics. At least three from each evaluation criterion.
 
 The Report on Labour Force in Singapore is a key annual report on Singapore’s labour market.    
 
@@ -24,28 +24,28 @@ Below is the extract of chart obtained from the Report: Labour Force in Singapor
 
 ![Initial Chart](./image/MOM.PNG)
 
-**Clarity**    
+**Clarity**:    
 
 1. The chart title indicates “Resident labour force by age” but does not explain if it is showing counts or percentages on the line chart. There are no label added to the data points as well, hence hindering the proper interpretation of data. 
 
-2. The lead-in paragraph explained the relationship between resident labour force for different age group and labour force participation rate (LFPR).    
+2. The lead-in paragraph explained the relationship between Resident Labour Force for different age group and Labour Force Participation Rate (LFPR).    
 However, there is no separate visuals created in the chart that depicts LFPR.   
-Hence, unable to clearly identify the correlation between resident labour force and LFPR.
+Hence, nable to clearly identify the correlation between Resident Labour Force and LFPR.
 
 3. The lead-in paragraph explained the increment of median age of residents in the labour force.    
-However, the median age is simply an indication on the chart and does not provide any meaning to the interpretation of chart. Also, the source of the data for median age is not stated.
+However, the median age is simply an indication on the chart and does not provide any meaning to the interpretation of the chart. Also, the source of the data for median age is not provided.
 
-4. The narrative compared the increment of resident labour force aged 55 and over and decline of resident labour force aged 25 to 54.    
+4. The lead-in paragraph compared the increment of Resident Labour Force aged 55 and over and decline of Resident Labour Force aged 25 to 54.    
 However, the chart depicts the time series data; in this case, a 5-year age bands were used.   
-Hence, there is no standardization of age bands as explained in the lead-in paragraph and chart, and this may hinder the proper interpretation of data. 
+Hence, there is no standardization of age bands as explained in both lead-in paragraph and chart, and this may hinder the proper interpretation of data. 
 
-**Aesthetics**    
+**Aesthetics**:   
 
 1. There is no vertical axis in the chart. Hence, unable to clearly understand what the data is about.    
 
 2. There is no axis title for both horizontal and vertical axis. Hence unable to clearly understand what the data is about. 
 
-3. Data Labels (for example, percentage of resident labour force) are not displaying for all the data points on the line chart. Rather, it is displayed in a table format below the chart.  Hence, unable to facilitate easy reading of data points.
+3. Data Labels (for example, percentage of Resident Labour Force) are not displaying for all the data points on the line chart. Rather, it is displayed in a table format below the chart.  Hence, unable to facilitate easy reading of data points.
 
 4. There are clear direct labels on the line charts indicating June 2009 and June 2019.
 
@@ -55,22 +55,22 @@ Hence, there is no standardization of age bands as explained in the lead-in para
 
 #  2.0 With reference to the critics above, suggest alternative graphical presentation to improve current design. The proposed alternative data visualization must be in static form. Sketch out the proposed design. Support your design by describing the advantages or which part of the issue(s) your alternative design try to overcome.
 
-**Clarity**   
+**Clarity**:   
 
-1. To modify the title to “Resident Labour Force in Percentage” to clearly reflect that the data presented is in percentage.
+1. To modify the chart title to “Resident Labour Force in Percentage” to clearly reflect that the data presented is in percentage.
 
-2. To add another bar graph to show the percentage of Labour Force Participation Rate.   
-This allows user to identify the relationship between Labour Force Participation Rate and Resident labour force for different age group. 
+2. To add another bar graph to show the percentage of Labour Force Participation Rate (LFPR).   
+This allows user to identify the relationship between LFPR and Resident Labour Force for different age group. 
 
 3. To remove median age from the chart as it does not serve any meaningful interpretation to the data.
 
-4. To create 3 age bands (for example, age bands between 0 to 24, 25 to 54 and 55 & over) for comparing characteristics across time period.
+4. To create 3 distinct Age Groups (for example, Age Groups between 0 to 24, 25 to 54 and 55 & over) for comparing characteristics across time period.
 
-**Aesthetics**    
+**Aesthetics**:    
 
 1. To show the vertical axis (in percentage) on the line chart.
 
-2. To add axis titles to horizontal (i.e. Age Group) and vertical axes. (i.e. Percentage of resident labour force) 
+2. To add axis titles to horizontal (i.e. Age Group) and vertical axes (i.e. Percentage of Resident Labour Force).
 
 3. To display the data points in percentage for all values in the line chart.
 
@@ -84,26 +84,26 @@ This allows user to identify the relationship between Labour Force Participation
 
 ![Sketch](./image/Sketch.jpg)
 
-1. In order to clearly explain the changes of labour force participation rate and resident labour force for 2-year period across all age bands, there are proposed 3 charts instead of 1 chart as shown in the initial visualization.
+1. In order to clearly compare the changes of Labour Force Participation Rate and Resident Labour Force for 2-year period across all age groups, 3 individual charts are proposed instead of 1 chart as shown in the initial visualization.
 
 2. All charts are clearly displayed with relevant chart title, axis labels, mark labels and legend to provide user with visual clues to better understand and interpret the data.
 
-3. All age groups are classified into 3 distinct age band (15-24, 25-54, 55&above) so that user can directly relate to the lead-in paragraph.
+3. All age groups are classified into 3 distinct age groups (15-24, 25-54, 55&above) so that user can directly relate to the information described in the lead-in paragraph.
 
 #  3.0 Using Tableau, design the proposed data visualization.
 
-Data Visualization can be found in Tableau Public:     https://public.tableau.com/profile/elaine3214#!/vizhome/Book4_16118304881740/Dashboard
+Data Visualization can be found in Tableau Public Server:     https://public.tableau.com/profile/elaine3214#!/vizhome/Book4_16118304881740/Dashboard
 
 #  4.0 Provide step-by-step description on how the data visualization was prepared.
 
-## Data Source
-Data Source is extracted from https://stats.mom.gov.sg/Pages/Labour-Force-Tables2019.aspx
+## Data Sources
+Data Sources are extracted from https://stats.mom.gov.sg/Pages/Labour-Force-Tables2019.aspx
 
 Table 5: Resident Labour Force Participation Rate by Age and Sex, 2009-2019 (June)
 
 Table 7: Resident Labour Force Aged Fifteen Years and Over by Age and Sex, 2009-2019 (June)
 
-## Data Prepartion
+## Data Preparation
 
 ### Table 7
 
@@ -111,7 +111,7 @@ Table 7: Resident Labour Force Aged Fifteen Years and Over by Age and Sex, 2009-
 
 2. Calculate Percentage of Resident Labour Force using the formula; Number of Resident Labour Force divided by Total Resident Labour Force in a new column as per below table:   
 
-![Calculation](./image/Picture1.PNG)
+![Table 7](./image/Picture1.PNG)
 
 3. Rename the file to Table 7.
 
@@ -119,7 +119,7 @@ Table 7: Resident Labour Force Aged Fifteen Years and Over by Age and Sex, 2009-
 
 1. Covert data headers to dimensions for source data, **Table 5: Resident Labour Force Participation Rate by Age and Sex, 2009-2019 (June)** as per below table:
 
-![Convert Headers](./image/Picture7.PNG)  
+![Table 5](./image/Picture7.PNG){width=70%}  
 
 2. Rename the file to Table 5.
 
@@ -129,35 +129,36 @@ Table 7: Resident Labour Force Aged Fifteen Years and Over by Age and Sex, 2009-
 
 1. Create an extract from an excel workbook, Table 5 where all data will be included in the visualization. 
 
-![Extract Data](./image/Picture3.PNG)
+![Extract Data](./image/Picture3.PNG){width=70%}
 
 ### Import to Tableau
 
-2. Import Table 5 into tableau:   
-![Import Data](./image/Picture8.PNG){width=70%}
+2. Import Table 5 into Tableau:   
+![Imported Table 5](./image/Picture8.PNG){width=70%}
 
-3. Change data type for **[Year]** from Number to **Date**.
-![Change Data Type](./image/Picture15.PNG) 
+3. Change data type for **[Year]** from Number(whole) to **Date**.
+![Convert Data Type](./image/Picture15.PNG) 
 
-### Create chart to show the Percentage of Labour Force Participation Rate for all Age Group
+### Create chart to show the Percentage of Labour Force Participation Rate for all Age Groups
 
-4. Drag **[Age]** and **[Year]** to Rows and **[Percentage of Resident Labour Force]** to Columns
+4. Drag **[Age]** and **[Year]** to Rows and **[Percentage of Resident Labour Force]** to Columns.
 
-5. Format horizontal axis’s scale to Percentage with 0 decimal place.
+5. Format horizontal axis’s scale to **Percentage with 0 decimal place**.
 
 6. On the Marks card, click the Marks Type drop-down and select **Bar**.
 
 7. From the Data Pane, drag **[Year]** to Colour on the Marks card and edit colours to differentiate two-year period.
 
-8. Under the **[Year]** filter, select the year option.
+8. Under the **[Year]** filter, select the Year option.
 
-![Picture10](./image/Picture10.PNG){width=40%}
+![Select Year](./image/Picture10.PNG){width=40%}
+
 
 ### Create Dual Axis
 
-9. Drag **[Percentage of Resident Labour Force]** to Columns and Select Dual Axis.
+9. Drag **[Percentage of Resident Labour Force]** to Columns and right-click to select Dual Axis from the drop-down.
 
-10. Format horizontal axis’s scale to Percentage with 0 decimal place and select Synchronise Axis.
+10. Format horizontal axis’s scale to **Percentage with 0 decimal place** and select **Synchronise Axis**. Right click on the axis and **untick Show Header**.
 
 11. On the Marks card, click the Marks Type drop-down and select **Circle**.
 
@@ -169,38 +170,38 @@ Table 7: Resident Labour Force Aged Fifteen Years and Over by Age and Sex, 2009-
 
 1. Create an extract from an excel workbook, Table 7 where all data will be included in the visualization.    
 
-![Picture3](./image/Picture3.PNG)
+![Extract Data](./image/Picture3.PNG){width=70%}
 
 ### Import to Tableau
 
-2. Import Table 7 into tableau:   
+2. Import Table 7 into Tableau:   
 
-![Picture4](./image/Picture4.PNG)
+![Table 7](./image/Picture4.PNG)
 
-3. Change data type for **[Year]** from Number to **Date**.
-![Picture15](./image/Picture15.PNG) 
+3. Change data type for **[Year]** from Number(whole) to **Date**.
+![Convert Data Type](./image/Picture15.PNG) 
 
-### Create chart to show an overview of the Percentage of Resident Labour Force for all Age Group 
+### Create chart to show an overview of the Percentage of Resident Labour Force for all Age Groups
 
 4. Drag **[Age]** and **[Year]** to Columns and **[Percentage of Resident Labour Force]** to Rows.   
 
-![Picture12](./image/Picture12.PNG){width=70%}    
+![Data&Tables](./image/Picture12.PNG){width=70%}    
 
-![Picture13](./image/Picture13.PNG){width=70%} 
+![Columns&Rows](./image/Picture13.PNG){width=70%} 
 
-5. Format horizonal axis’s scale to Percentage with 0 decimal place.
+5. Format horizonal axis’s scale to **Percentage with 0 decimal place**.
 
 6. On the Marks card, click the Marks Type drop-down and select **Line**.
 
-7. Under the **[Year]** filter, select the year option.   
+7. Under the **[Year]** filter, select the Year option.   
 
-![Picture10](./image/Picture10.PNG){width=40%}   
+![Select Year](./image/Picture10.PNG){width=40%}   
 
 ### Create Dual Axis
 
 8. Drag **[Percentage of Resident Labour Force]** to Rows and Select Dual Axis.
 
-9. Format axis scale to Percentage with 0 decimal place and select Synchronise Axis.
+9. Format axis scale to **Percentage with 0 decimal place** and select Synchronise Axis.Right click on the axis and **untick Show Header**.
 
 10. On the Marks card, click the Marks Type drop-down and select **Circle**.
 
@@ -212,19 +213,19 @@ Table 7: Resident Labour Force Aged Fifteen Years and Over by Age and Sex, 2009-
 
 1. Drag **[Age]** and **[Year]** to Columns and **[Percentage of Resident Labour Force]** to Rows    
 
-![Picture12](./image/Picture12.PNG){width=70%}   
+![Data&Tables](./image/Picture12.PNG){width=70%}   
 
-![Picture13](./image/Picture13.PNG){width=70%}   
+![Columns&Rows](./image/Picture13.PNG){width=70%}   
 
-2. Format horizontal axis’s scale to Percentage with 0 decimal place.
+2. Format horizontal axis’s scale to **Percentage with 0 decimal place**.
 
 3. On the Marks card, click the Marks Type drop-down and select **Line**.
 
 ### Create Dual Axis
 
-4. Drag [Percentage of Resident Labour Force] to Rows and Select Dual Axis
+4. Drag **[Percentage of Resident Labour Force]** to Rows and Select Dual Axis.
 
-5. Format horizontal axis’s scale to Percentage with 0 decimal place and select Synchronise Axis.
+5. Format horizontal axis’s scale to Percentage with 0 decimal place and select Synchronise Axis.Right click on the axis and **untick Show Header**.
 
 6. On the Marks card, click the Marks Type drop-down and select **Circle**.
 
@@ -232,26 +233,26 @@ Table 7: Resident Labour Force Aged Fifteen Years and Over by Age and Sex, 2009-
 
 ### Standardized Age Group
 
-8. In order to group the age into different age bands, select the range of dates in the axis and right-click the group field, and then rename it to 3 age groups (namely 15-24, 25-54 and 55 & over).
+8. In order to group the age into different age groups, select the range of dates in the axis and right-click the group field, and then rename it to 3 Age Groups (namely 15-24, 25-54 and 55 & over).
 
 ### Format for all charts
 
-9. On the Marks card, click Label and then select Show mark labels.
+9. On the Marks card, click Label and then select **Show mark labels**.
 
-10. Remove the grid lines and make the data present cleaner. Navigate to Format and click on lines and set grid lines as None in Rows.
+10. Remove the grid lines and make the data present cleaner. Navigate to Format and click on lines and **set grid lines as None** in Rows.
 
-11. For all charts, drag **[Years]** to **Color** under the Marks Card and select diverging color palette to identify respective years.
+11. For all charts, drag **[Year]** to **Color** under the Marks Card and select **diverging color palette** to identify respective years.
 
 ## Create New Dashboard
 
 1. Drag all above 3 charts to the Dashboard for further analysis.
 
 Final visualization output as follows:
-![Capture](./image/Capture.PNG)
+![Final visualization](./image/Capture.PNG)
 
 # 5.0 Describe three major observations revealed by the data visualisation prepared.
 
-Definition of labour force and labour force participation rate (extracted from Ministry of Mapower website[^1]):   
+Definition of labour force and labour force participation rate (extracted from Ministry of Manpower website[^1]):   
 
 i. The labour force, also known as the economically active population, refers to the manpower currently available in the economy. It comprises people who are working or seeking work (i.e. the employed and the unemployed).
 
