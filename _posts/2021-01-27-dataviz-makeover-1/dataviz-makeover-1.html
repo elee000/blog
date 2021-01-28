@@ -116,7 +116,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["dataviz-makeover-1_files/anchor-4.2.2/anchor.min.js","dataviz-makeover-1_files/bowser-1.9.3/bowser.min.js","dataviz-makeover-1_files/distill-2.2.21/template.v2.js","dataviz-makeover-1_files/jquery-1.11.3/jquery.min.js","dataviz-makeover-1_files/webcomponents-2.0.0/webcomponents.js","image/Capture.PNG","image/MOM.PNG","image/Picture1.png","image/Picture10.png","image/Picture12.png","image/Picture13.png","image/Picture15.png","image/Picture3.png","image/Picture4.png","image/Picture5.png","image/Picture7.png","image/Picture8.png","image/Sketch.jpg"]}
+  {"type":"character","attributes":{},"value":["dataviz-makeover-1_files/anchor-4.2.2/anchor.min.js","dataviz-makeover-1_files/bowser-1.9.3/bowser.min.js","dataviz-makeover-1_files/distill-2.2.21/template.v2.js","dataviz-makeover-1_files/jquery-1.11.3/jquery.min.js","dataviz-makeover-1_files/webcomponents-2.0.0/webcomponents.js","image/Capture.PNG","image/Capture1.PNG","image/Capture2PNG.PNG","image/Colour.png","image/Format Horizontal axis.png","image/MOM.PNG","image/Picture1.png","image/Picture10.png","image/Picture12.png","image/Picture13.png","image/Picture15.png","image/Picture3.png","image/Picture4.png","image/Picture5.png","image/Picture7.png","image/Picture8.png","image/Select Bar.png","image/Sketch.jpg"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
@@ -1488,7 +1488,7 @@ This allows user to identify the relationship between LFPR and Resident Labour F
 <li><p>Continue to use contrasting colours for differentiation between time period.</p></li>
 <li><p>Continue to include data source in the chart.</p></li>
 </ol>
-<p><strong>Sketch of Proposed Design</strong></p>
+<p><strong>Sketch of Proposed Design</strong>:</p>
 <figure>
 <img src="image/Sketch.jpg" alt="" /><figcaption>Sketch</figcaption>
 </figure>
@@ -1518,7 +1518,7 @@ This allows user to identify the relationship between LFPR and Resident Labour F
 </ol>
 <h3 id="table-5">Table 5</h3>
 <ol type="1">
-<li>Covert data headers to dimensions for source data, <strong>Table 5: Resident Labour Force Participation Rate by Age and Sex, 2009-2019 (June)</strong> as per below table:</li>
+<li>Convert data headers to dimensions for source data, <strong>Table 5: Resident Labour Force Participation Rate by Age and Sex, 2009-2019 (June)</strong> as per below table:</li>
 </ol>
 <figure>
 <img src="image/Picture7.png" style="width:70.0%" alt="" /><figcaption>Table 5</figcaption>
@@ -1538,15 +1538,38 @@ This allows user to identify the relationship between LFPR and Resident Labour F
 <ol start="2" type="1">
 <li><p>Import Table 5 into Tableau:<br />
 <img src="image/Picture8.png" style="width:70.0%" alt="Imported Table 5" /></p></li>
-<li><p>Change data type for <strong>[Year]</strong> from Number(whole) to <strong>Date</strong>. <img src="image/Picture15.png" alt="Convert Data Type" /></p></li>
+<li><p>Change data type for <strong>[Year]</strong> from Number(whole) to <strong>Date</strong>. <img src="image/Picture15.png" style="width:40.0%" alt="Convert Data Type" /></p></li>
 </ol>
 <h3 id="create-chart-to-show-the-percentage-of-labour-force-participation-rate-for-all-age-groups">Create chart to show the Percentage of Labour Force Participation Rate for all Age Groups</h3>
 <ol start="4" type="1">
-<li><p>Drag <strong>[Age]</strong> and <strong>[Year]</strong> to Rows and <strong>[Percentage of Resident Labour Force]</strong> to Columns.</p></li>
-<li><p>Format horizontal axis’s scale to <strong>Percentage with 0 decimal place</strong>.</p></li>
-<li><p>On the Marks card, click the Marks Type drop-down and select <strong>Bar</strong>.</p></li>
-<li><p>From the Data Pane, drag <strong>[Year]</strong> to Colour on the Marks card and edit colours to differentiate two-year period.</p></li>
-<li><p>Under the <strong>[Year]</strong> filter, select the Year option.</p></li>
+<li>Drag <strong>[Age]</strong> and <strong>[Year]</strong> to Rows and <strong>[Percentage of Resident Labour Force]</strong> to Columns.</li>
+</ol>
+<figure>
+<img src="image/Capture1.PNG" style="width:70.0%" alt="" /><figcaption>Tables</figcaption>
+</figure>
+<figure>
+<img src="image/Capture2PNG.PNG" style="width:70.0%" alt="" /><figcaption>Columns&amp;Rows</figcaption>
+</figure>
+<ol start="5" type="1">
+<li>Format horizontal axis’s scale to <strong>Percentage with 0 decimal place</strong>.</li>
+</ol>
+<figure>
+<img src="image/Format%20Horizontal%20axis.png" style="width:70.0%" alt="" /><figcaption>Format Horizontal Axis</figcaption>
+</figure>
+<ol start="6" type="1">
+<li>On the Marks card, click the Marks Type drop-down and select <strong>Bar</strong>.</li>
+</ol>
+<figure>
+<img src="image/Select%20Bar.png" style="width:40.0%" alt="" /><figcaption>Select Bar</figcaption>
+</figure>
+<ol start="7" type="1">
+<li>From the Data Pane, drag <strong>[Year]</strong> to Colour on the Marks card and edit colours to differentiate two-year period.</li>
+</ol>
+<figure>
+<img src="image/Colour.png" style="width:40.0%" alt="" /><figcaption>Colour</figcaption>
+</figure>
+<ol start="8" type="1">
+<li>Under the <strong>[Year]</strong> filter, select the Year option.</li>
 </ol>
 <figure>
 <img src="image/Picture10.png" style="width:40.0%" alt="" /><figcaption>Select Year</figcaption>
@@ -1591,9 +1614,6 @@ This allows user to identify the relationship between LFPR and Resident Labour F
 <li><p>On the Marks card, click the Marks Type drop-down and select <strong>Line</strong>.</p></li>
 <li><p>Under the <strong>[Year]</strong> filter, select the Year option.</p></li>
 </ol>
-<figure>
-<img src="image/Picture10.png" style="width:40.0%" alt="" /><figcaption>Select Year</figcaption>
-</figure>
 <h3 id="create-dual-axis-1">Create Dual Axis</h3>
 <ol start="8" type="1">
 <li><p>Drag <strong>[Percentage of Resident Labour Force]</strong> to Rows and Select Dual Axis.</p></li>

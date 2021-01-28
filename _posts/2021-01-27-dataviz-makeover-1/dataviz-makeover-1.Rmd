@@ -80,7 +80,7 @@ This allows user to identify the relationship between LFPR and Resident Labour F
 
 6. Continue to include data source in the chart.
 
-**Sketch of Proposed Design**
+**Sketch of Proposed Design**:
 
 ![Sketch](./image/Sketch.jpg)
 
@@ -117,7 +117,7 @@ Table 7: Resident Labour Force Aged Fifteen Years and Over by Age and Sex, 2009-
 
 ### Table 5
 
-1. Covert data headers to dimensions for source data, **Table 5: Resident Labour Force Participation Rate by Age and Sex, 2009-2019 (June)** as per below table:
+1. Convert data headers to dimensions for source data, **Table 5: Resident Labour Force Participation Rate by Age and Sex, 2009-2019 (June)** as per below table:
 
 ![Table 5](./image/Picture7.PNG){width=70%}  
 
@@ -137,17 +137,27 @@ Table 7: Resident Labour Force Aged Fifteen Years and Over by Age and Sex, 2009-
 ![Imported Table 5](./image/Picture8.PNG){width=70%}
 
 3. Change data type for **[Year]** from Number(whole) to **Date**.
-![Convert Data Type](./image/Picture15.PNG) 
+![Convert Data Type](./image/Picture15.PNG){width=40%}
 
 ### Create chart to show the Percentage of Labour Force Participation Rate for all Age Groups
 
 4. Drag **[Age]** and **[Year]** to Rows and **[Percentage of Resident Labour Force]** to Columns.
 
+![Tables](./image/Capture1.PNG){width=70%}
+
+![Columns&Rows](./image/Capture2PNG.PNG){width=70%}
+
 5. Format horizontal axis’s scale to **Percentage with 0 decimal place**.
+
+![Format Horizontal Axis](./image/Format Horizontal axis.PNG){width=70%}
 
 6. On the Marks card, click the Marks Type drop-down and select **Bar**.
 
+![Select Bar](./image/Select Bar.PNG){width=40%}
+
 7. From the Data Pane, drag **[Year]** to Colour on the Marks card and edit colours to differentiate two-year period.
+
+![Colour](./image/Colour.PNG){width=40%}
 
 8. Under the **[Year]** filter, select the Year option.
 
@@ -194,8 +204,6 @@ Table 7: Resident Labour Force Aged Fifteen Years and Over by Age and Sex, 2009-
 6. On the Marks card, click the Marks Type drop-down and select **Line**.
 
 7. Under the **[Year]** filter, select the Year option.   
-
-![Select Year](./image/Picture10.PNG){width=40%}   
 
 ### Create Dual Axis
 
