@@ -1,7 +1,7 @@
 ---
-title: "My first post"
+title: "Preview"
 description: |
-  A short description of the post.
+  Hands-on exercise during course preview!
 author:
   - name: Elaine Lee
     url: https://example.com/norajones
