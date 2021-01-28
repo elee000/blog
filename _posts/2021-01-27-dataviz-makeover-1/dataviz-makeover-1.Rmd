@@ -30,7 +30,7 @@ Below is the extract of chart obtained from the Report: Labour Force in Singapor
 
 2. The lead-in paragraph explained the relationship between Resident Labour Force for different age group and Labour Force Participation Rate (LFPR).    
 However, there is no separate visuals created in the chart that depicts LFPR.   
-Hence, nable to clearly identify the correlation between Resident Labour Force and LFPR.
+Hence, unable to clearly identify the correlation between Resident Labour Force and LFPR.
 
 3. The lead-in paragraph explained the increment of median age of residents in the labour force.    
 However, the median age is simply an indication on the chart and does not provide any meaning to the interpretation of the chart. Also, the source of the data for median age is not provided.
