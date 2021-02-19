@@ -219,7 +219,7 @@ vi. Final Visualization of the chart showing the breakdown of responses on a fiv
 
 1. **Create the necessary Calculated Field**: Select Analysis and click **Create Calculated Field**.
 
-2. **Create calculated field – Score-Strongly agree**: To extract the percentage of survey responses who strongly agreed to vaccination, create the calculated field **“Score-Strongly agree”** with calculation as follows:
+2. **Create calculated field – Score-Strongly Agree**: To extract the percentage of survey responses who strongly agreed to vaccination, create the calculated field **“Score-Strongly Agree”** with calculation as follows:
 
   if[Score]=1 THEN 1    
   else 0    
