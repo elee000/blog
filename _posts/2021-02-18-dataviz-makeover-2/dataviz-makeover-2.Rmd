@@ -1,0 +1,81 @@
+---
+title: "Dataviz Makeover 2"
+description: |
+  This is the second assignment on Data Visualization!
+author:
+  - name: Elaine Lee
+    url: https://example.com/elainelee
+date: 02-18-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+#  1.0 Critic the Graph from both its clarity and aesthetics. At least three from each evaluation criterion.
+
+A research team is currently conducting a study to understand the willingness of the public on Covid-19 vaccination. Below are two data visualisation created by one of the research scientists of the research.
+
+![](./image/Question.PNG)
+
+**Clarity**
+1. The stacked bar chart title indicates “Which Country is more pro-vaccine?” but the bar chart is sorted in ascending alphanumeric by Y-axis, hence mislead users that Australia is the country that is more pro-vaccine when it is not. There are no labels added to the data points as well, hence hindering the proper interpretation of data. 
+
+2. For the stacked bar chart indicating “Which Country is more pro-vaccine?”, It is hard to interpret the responses in the middle of the stacked bar as they do not share a common baseline.
+
+3. The bar chart indicating “% of strongly agreed to vaccination” shows the breakdown of the percentage of strongly agreed to vaccination for respective countries but does not reflect the number of respondents. Hence, it may mislead user to the wrong conclusion if the sample size is small.
+
+4. Each chart has a different scale on its horizontal axis. For the stacked bar chart indicating “Which Country is more pro-vaccine?”, the values of the percentage of total record are from 0% to 100% whereas for the bar chart indicating “% of strongly agreed to vaccination”, the values of the percentage of strongly agreed are from 0% to 60%. Hence, making it unclear to user whether the chart is truncated. 
+
+5. There is inconsistent sort method associated with each chart. For the stacked bar chart indicating “Which Country is more pro-vaccine?”, the country is sorted in ascending alphanumeric for the Y-axis while the other bar chart indicating “% of strongly agreed to vaccination”, data is sorted by percentage of strongly agree for the Y-axis in descending order. Hence, it may mislead user that both charts are sorted in the same manner and hinder the proper interpretation of data.
+
+6. Legend showing Likert scales is incomplete as it only shows “1-Strongly agree” and “5-Strongly disagree”. There are no responses for point values, from 2 to 4.
+
+**Asethetics**
+1. Data Labels (for example, Percentage of public who agreed to vaccination) are not displaying for all the data points on the bar chart. Hence, unable to facilitate easy reading of data points.
+
+2. Legend title indicates as “Vac 1” but there is no explanation of this notation.
+
+3. The axis labels on both charts are inconsistent as the stacked bar chart is displaying percentage of total records in whole number while the other bar chart is displaying percentage of strongly agreed in one decimal place.
+
+4. There is no clear indication of data source stated in the chart.
+
+5. The use of colour scheme used on each segment of the stack is confusing as there are too many contrasting colour.
+
+6. There is a spelling error for the word ‘Vaccine’ which was spelt as ‘Vacinne’ in the chart title.
+
+#  2.0 With reference to the critics above, suggest alternative graphical presentation to improve current design. The proposed alternative data visualization must be in static form. Sketch out the proposed design. Support your design by describing the advantages or which part of the issue(s) your alternative design try to overcome.
+
+**Sketch of Proposed Design**:
+![](./image/Sketch.jpg)
+
+**In terms of Clarity:**
+
+**For the first chart**
+1. A diverging stacked bar is created with the use of two contrasting colour to help user mentally group each half of the diverging stacked bar. Also, to include data labels for all data points.
+
+The positive and negative percentages are presented using a synchronized dual axis chart. The neutrals are a separate chart that is placed next to this dual axis chart.
+
+Note: (i) "Strongly Disagree" and " Disagree" categories are combined to obtain Percentage Negative.
+(ii) "Strongly Agree" and "Agree" categories are combined to obtain Percentage Positive.
+
+2. Subsequently, a histogram bar chart is created to show the breakdown of responses for all point values on a Likert scale (“1-Strongly agree”, “2-Agree”,"3-Neutral”,"4-Disagree”,"5-Strongly Disagree”) when user hovers over the bar chart.
+
+3. In order to build a dashboard that is interactivity, parameter actions such as filters are used. For instance, user can select the survey questions using a parameter control to change the type of question. (i.e. Vac_1 is rename to “If a Covid-19 vaccine were made available to me this week, I would definitely get it”.) For the purpose of further analysis, data collected from vac2_1, vac2_2, vac2_3, vac2_6 and vac3 are used.
+
+**For the second chart**
+1. In order not to mislead user into thinking that they can conclude more than the data allows, the results are presented with confidence intervals (example; at 90%,95%,99% confidence interval).
+
+2. In order to build a dashboard that is interactivity, parameter actions such as filters are used. For instance, user can select the date using a parameter control to change the month of year.
+
+**In terms of Asethetics:**
+
+1. All data points are consistently labelled in percentage in 0 decimal place, chart title is included, and axis title are properly labelled for better visualization of data.
+
+2. Data Source is clearly stated in the chart.Link: https://github.com/YouGov-Data/covid-19-tracker/tree/master/data
+
+3. For better visualisation of the histogram, sequential colour scheme is applied. Recolour each segment of the stack from darkest to lightest shades of one colour to differentiate Positive sentiment, Neutral and Negative sentiment.
