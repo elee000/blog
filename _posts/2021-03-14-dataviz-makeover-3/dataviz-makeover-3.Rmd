@@ -359,6 +359,6 @@ Philippines recorded 2,406 conflict events in 2016 (as opposed to 0 in 2015). Th
 
 ![](./image/Spike2016.PNG){width=70%}
 
-5. Of the Top three actors responsible for the largest share of civilian targeting in 2020, unidentified armed group remain the top threat to civilians. In countries like Philippines, the total number of fatalities resulted from unidentified armed group is 199 in 2020. FOllowed by Myanmar where the total number of fatalities resulted from unidentified armed group is 122 in 2020.
+5. Of the Top three actors responsible for the largest share of civilian targeting in 2020, unidentified armed group remain the top threat to civilians. In countries like Philippines, the total number of fatalities resulted from unidentified armed group is 199 in 2020. Followed by Myanmar where the total number of fatalities resulted from unidentified armed group is 122 in 2020.
 
 ![](./image/Armed.PNG){width=200%}
