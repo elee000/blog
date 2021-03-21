@@ -225,7 +225,7 @@ Visualization of the chart as follows:
 
 ![](./image/Bar.PNG){width=80%}
 
-**2. Create a new Worksheet named "Top 3 Actors by Fatalities"**
+**2. Create a new Worksheet named **"Top 3 Actors by Fatalities"**
 
 Double click the name of column; **[Actor 1]** to rename the field to **[Named Actor Involved in the Event]**.
 
