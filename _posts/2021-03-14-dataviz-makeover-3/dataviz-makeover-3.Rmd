@@ -347,9 +347,9 @@ Philippines is the country with regions covered in darker Red as compared to oth
 
 3. Most forms of political violence are on the rise. In particular, the number of protests violence increased by 10% in 2019 to 2,224 in 2020. Thailand is the only country that recorded the highest increment of the number of protests violence (from 164 in 2019 to 679 in 2020). 
 
-![](./image/2019.PNG){width=90%}
+![](./image/2019.PNG){width=100%}
 
-![](./image/2020.PNG){width=90%}
+![](./image/2020.PNG){width=100%}
 
 4. Heightened number of recorded conflict events in Philippines in 2016. 
 
@@ -361,4 +361,4 @@ Philippines recorded 2,406 conflict events in 2016 (as opposed to 0 in 2015). Th
 
 5. Of the Top three actors responsible for the largest share of civilian targeting in 2020, unidentified armed group remain the top threat to civilians. In countries like Philippines, the total number of fatalities resulted from unidentified armed group is 199 in 2020. FOllowed by Myanmar where the total number of fatalities resulted from unidentified armed group is 122 in 2020.
 
-![](./image/Armed.PNG){width=80%}
+![](./image/Armed.PNG){width=150%}
