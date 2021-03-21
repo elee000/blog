@@ -347,9 +347,9 @@ Philippines is the country with regions covered in darker Red as compared to oth
 
 3. Most forms of political violence are on the rise. In particular, the number of protests violence increased by 10% in 2019 to 2,224 in 2020. Thailand is the only country that recorded the highest increment of the number of protests violence (from 164 in 2019 to 679 in 2020). 
 
-![](./image/2019.PNG){width=70%}
+![](./image/2019.PNG){width=90%}
 
-![](./image/2020.PNG){width=70%}
+![](./image/2020.PNG){width=90%}
 
 4. Heightened number of recorded conflict events in Philippines in 2016. 
 
