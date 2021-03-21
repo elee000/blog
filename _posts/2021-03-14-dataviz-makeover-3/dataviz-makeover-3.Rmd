@@ -289,7 +289,7 @@ In the source worksheet, click **Tooltip** in the **Marks card**. In the Tooltip
 
 ![](./image/Viz2.PNG){width=70%}
 
-Final visualization showing the breakdown of number of events and number of fatalities by Country when user hovers over bar as follows:
+Final visualization showing the breakdown of number of events and number of fatalities by Country when user hovers over line as follows:
 
 ![](./image/Trend.PNG){width=80%}
 
