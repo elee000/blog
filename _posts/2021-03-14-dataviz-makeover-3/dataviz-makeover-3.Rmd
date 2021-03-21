@@ -225,7 +225,7 @@ Visualization of the chart as follows:
 
 ![](./image/Bar.PNG){width=80%}
 
-**2. Create a new Worksheet named **"Top 3 Actors by Fatalities"**
+**2. Create a new Worksheet named "Top 3 Actors by Fatalities"**
 
 Double click the name of column; **[Actor 1]** to rename the field to **[Named Actor Involved in the Event]**.
 
@@ -259,7 +259,7 @@ Visualization of the chart as follows:
 
 ## Steps taken for Line Chart
 
-**1. Create a new Worksheet named **"Trend by Event Type"**
+**1. Create a new Worksheet named "Trend by Event Type"**
 
 In the Data pane, drag **[Year]** to the Columns shelf and **[Number of Records]** and **[Fatalities]** to the Rows shelf.
 
